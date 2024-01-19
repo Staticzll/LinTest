@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home_dest"
+        android:icon="@drawable/ic_launcher_background"
+        android:title="home_dest" />
+    <item
+        android:id="@+id/home_deeplink_dest"
+        android:icon="@drawable/ic_launcher_background"
+        android:title="home_deeplink_dest" />
+</menu>
