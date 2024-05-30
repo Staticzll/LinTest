@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--    <com.lin.test.view.RatingBar-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:background="#ff0000"-->
+    <!--        android:paddingStart="50dp"-->
+    <!--        android:paddingEnd="50dp"-->
+    <!--        app:gradeNumber="5"-->
+    <!--        app:startFocus="@drawable/star_select"-->
+    <!--        app:startNormal="@drawable/star_normal_2" />-->
+
+    <!--    <com.lin.test.view.RatingStarView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        app:numStars="5"-->
+    <!--        app:rating="3.5"-->
+    <!--        app:starDrawable="@drawable/start_normal" />-->
+
+    <com.lin.test.view.TagLayout
+        android:id="@+id/tag_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+<!--            <TextView-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Hello world! "-->
+<!--            android:textColor="#000"-->
+<!--            android:textSize="28sp" />-->
+
+<!--            <TextView-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Hello world! Hello world! "-->
+<!--            android:textColor="#000"-->
+<!--            android:textSize="28sp" />-->
+
+<!--            <TextView-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Hello world! Hello world!Hello world! "-->
+<!--            android:textColor="#000"-->
+<!--            android:textSize="28sp" />-->
+
+<!--            <TextView-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Hello world! Hello world!"-->
+<!--            android:textColor="#000"-->
+<!--            android:textSize="28sp" />-->
+
+<!--            <TextView-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Hello world! Hello world!Hello world!Hello world!"-->
+<!--            android:textColor="#000"-->
+<!--            android:textSize="28sp" />-->
+
+<!--            <TextView-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Hello world! Hello world!Hello world!"-->
+<!--            android:textColor="#000"-->
+<!--            android:textSize="28sp" />-->
+
+<!--            <TextView-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Hello world! "-->
+<!--            android:textColor="#000"-->
+<!--            android:textSize="28sp" />-->
+
+<!--            <TextView-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Hello world! Hello world! "-->
+<!--            android:textColor="#000"-->
+<!--            android:textSize="28sp" />-->
+
+<!--            <TextView-->
+<!--                android:layout_margin="20dp"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Hello world! Hello world!Hello world! "-->
+<!--                android:textColor="#000"-->
+<!--                android:textSize="28sp" />-->
+
+<!--            <TextView-->
+<!--                android:layout_margin="20dp"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Hello world! Hello world!"-->
+<!--                android:textColor="#000"-->
+<!--                android:textSize="28sp" />-->
+
+<!--            <TextView-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Hello world! Hello world!Hello world! "-->
+<!--            android:textColor="#000"-->
+<!--            android:textSize="28sp" />-->
+
+<!--            <TextView-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Hello world! Hello world!"-->
+<!--            android:textColor="#000"-->
+<!--            android:textSize="28sp" />-->
+
+<!--            <TextView-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Hello world! Hello world!Hello world!Hello world!"-->
+<!--            android:textColor="#000"-->
+<!--            android:textSize="28sp" />-->
+
+<!--            <TextView-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Hello world! Hello world!Hello world!"-->
+<!--            android:textColor="#000"-->
+<!--            android:textSize="28sp" />-->
+
+<!--            <TextView-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Hello world! "-->
+<!--            android:textColor="#000"-->
+<!--            android:textSize="28sp" />-->
+
+<!--            <TextView-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Hello world! Hello world! "-->
+<!--            android:textColor="#000"-->
+<!--            android:textSize="28sp" />-->
+
+<!--            <TextView-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Hello world! Hello world!Hello world! "-->
+<!--            android:textColor="#000"-->
+<!--            android:textSize="28sp" />-->
+
+<!--            <TextView-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Hello world! Hello world!"-->
+<!--            android:textColor="#000"-->
+<!--            android:textSize="28sp" />-->
+
+<!--            <TextView-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Hello world! Hello world!Hello world!Hello world!"-->
+<!--            android:textColor="#000"-->
+<!--            android:textSize="28sp" />-->
+
+<!--            <TextView-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Hello world! Hello world!Hello world!"-->
+<!--            android:textColor="#000"-->
+<!--            android:textSize="28sp" />-->
+<!--    </com.lin.test.view.TagLayout>-->
+</LinearLayout>

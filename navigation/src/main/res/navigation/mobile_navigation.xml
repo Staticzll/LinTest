@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/main_fragment"
-        android:name="com.tianjuan.navigation.MainFragment"
+        android:name="com.lin.navigation.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main">
 
@@ -18,10 +18,6 @@
         <action
             android:id="@+id/main_to_register"
             app:destination="@id/navigation2">
-            <argument
-                android:name="abc"
-                android:defaultValue="1"
-                app:argType="integer" />
         </action>
 
         <action
@@ -31,9 +27,14 @@
 
     <fragment
         android:id="@+id/play_fragment"
-        android:name="com.tianjuan.navigation.PlayFragment"
+        android:name="com.lin.navigation.PlayFragment"
         android:label="fragment_play"
         tools:layout="@layout/fragment_play">
+
+        <deepLink
+            android:id="@+id/deepLink"
+            app:action="android.intent.action.test"
+            app:uri="www.baidu.com" />
 
     </fragment>
 
@@ -42,20 +43,26 @@
         app:startDestination="@id/register_fragment">
         <fragment
             android:id="@+id/register_fragment"
-            android:name="com.tianjuan.navigation.PlayFragment"
+            android:name="com.lin.navigation.PlayFragment"
             android:label="fragment_play"
             tools:layout="@layout/fragment_register" />
         <fragment
             android:id="@+id/money_fragment"
-            android:name="com.tianjuan.navigation.MoneyFragment"
+            android:name="com.lin.navigation.MoneyFragment"
             android:label="fragment_money"
             tools:layout="@layout/fragment_money" />
     </navigation>
 
     <include app:graph="@navigation/include_graph" />
 
-    <action
-        android:id="@+id/action_global_play_fragment"
-        app:destination="@id/play_fragment" />
+     <action
+         android:id="@+id/action_global_play_fragment"
+         app:destination="@id/play_fragment" />
+
+    <!--终端目的地-->
+    <activity
+        android:id="@+id/singleActivity"
+        android:name="com.lin.navigation.SingleActivity"
+        android:label="SingleActivity" />
 
 </navigation>

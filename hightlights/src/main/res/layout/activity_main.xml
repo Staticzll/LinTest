@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3月3日，全国政协委员、上海科技馆馆长倪闽景接受新京报采访称，他今年关注科学教育和大学生就业问题。他表示，每一个孩子都有其独特的创造能力，相信每一个孩子都有机会成为拔尖创新人才。科学教育应当面向全体孩子，校内教育应该更多样化，另一方面动手实践是关键。“科学教育不应该是做题和考试，我们应当鼓励孩子充分动手实践。”同时他希望每一个大学生都能找到心仪的岗位，他建议所有单位都应该尽量拿出一些岗位给大学生用于就业。"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3月3日，全国政协委员、上海科技馆馆长倪闽景接受新京报采访称，他今年关注科学教育和大学生就业问题。他表示，每一个孩子都有其独特的创造能力，相信每一个孩子都有机会成为拔尖创新人才。科学教育应当面向全体孩子，校内教育应该更多样化，另一方面动手实践是关键。“科学教育不应该是做题和考试，我们应当鼓励孩子充分动手实践。”同时他希望每一个大学生都能找到心仪的岗位，他建议所有单位都应该尽量拿出一些岗位给大学生用于就业。"
+        android:textIsSelectable="true" />
+</LinearLayout>

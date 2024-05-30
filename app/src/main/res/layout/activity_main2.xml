@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.lin.test.view.ColorTrackTextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello world"
+        android:textSize="28sp"
+        app:changeColor="#ff0000" />
+
+    <Button
+        android:id="@+id/left_to_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="左到右" />
+
+    <Button
+        android:id="@+id/right_to_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="右到左" />
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".progress.ProgressBarActivity">
+
+    <Button
+        android:id="@+id/change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="切换" />
+
+    <com.lin.test.view.ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        app:innerBackground="#ff0000"
+        app:outerBackground="#0000ff"
+        app:progressTextColor="#000"
+        app:progressTextSize="36sp"
+        app:roundWidth="50dp" />
+
+    <com.lin.test.view.ShapeView
+        android:layout_gravity="center"
+        android:id="@+id/shape_view"
+        android:layout_width="130dp"
+        android:layout_height="130dp" />
+
+</FrameLayout>

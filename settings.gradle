@@ -17,3 +17,6 @@ rootProject.name = "LinTest"
 include ':app'
 include ':coroutint'
 include ':navigation'
+include ':pinyin'
+include ':workmanger'
+include ':hightlights'

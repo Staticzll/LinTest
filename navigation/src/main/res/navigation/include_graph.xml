@@ -6,12 +6,12 @@
     app:startDestination="@id/include_one">
     <fragment
         android:id="@+id/include_one"
-        android:name="com.tianjuan.navigation.MoneyFragment"
+        android:name="com.lin.navigation.MoneyFragment"
         android:label="@string/app_name"
         tools:layout="@layout/fragment_money" />
     <fragment
         android:id="@+id/include_two"
-        android:name="com.tianjuan.navigation.MoneyFragment"
+        android:name="com.lin.navigation.MoneyFragment"
         android:label="@string/app_name"
         tools:layout="@layout/fragment_money" />
 

@@ -5,13 +5,22 @@
       <entry key="app">
         <State />
       </entry>
-      <entry key="app.coroutint">
-        <State />
-      </entry>
       <entry key="coroutint">
         <State />
       </entry>
+      <entry key="hightlights">
+        <State />
+      </entry>
       <entry key="navigation">
+        <State />
+      </entry>
+      <entry key="newComponent">
+        <State />
+      </entry>
+      <entry key="pinyin">
+        <State />
+      </entry>
+      <entry key="workmanger">
         <State />
       </entry>
     </value>

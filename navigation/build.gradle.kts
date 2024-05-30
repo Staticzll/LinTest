@@ -59,6 +59,7 @@ dependencies {
     implementation("androidx.navigation:navigation-fragment-ktx:${v("nav_version")}")
     implementation("androidx.navigation:navigation-ui-ktx:${v("nav_version")}")
     implementation("androidx.navigation:navigation-fragment:${v("nav_version")}")
+    // 使用 Safe Args 传递类型安全的数据
     implementation("androidx.navigation:navigation-ui:${v("nav_version")}")
 
     implementation("androidx.core:core-ktx:1.10.1")

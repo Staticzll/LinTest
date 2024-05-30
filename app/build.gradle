@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace 'com.tianjuan.lintest'
+    namespace 'com.lin.test'
     compileSdk 34
 
     defaultConfig {
@@ -49,6 +49,8 @@ android {
 
 dependencies {
 
+    implementation 'com.google.android.material:material:1.10.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     def appcompat_version = "1.6.1"
 
     implementation "androidx.appcompat:appcompat:$appcompat_version"

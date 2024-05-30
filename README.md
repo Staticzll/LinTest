@@ -1,0 +1,1 @@
+# <option name="delegatedBuild" value="false" />   执行java main方法
