@@ -28,10 +28,14 @@
         <attr name="gradeNumber" format="integer" />
     </declare-styleable>
 
-        <declare-styleable name="RatingStarView">
-            <attr name="starDrawable" format="reference"/>
-            <attr name="numStars" format="integer"/>
-            <attr name="rating" format="float"/>
-        </declare-styleable>
+    <declare-styleable name="RatingStarView">
+        <attr name="starDrawable" format="reference" />
+        <attr name="numStars" format="integer" />
+        <attr name="rating" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="SlidingMenu">
+        <attr name="menuRightMargin" format="dimension" />
+    </declare-styleable>
 
 </resources>
